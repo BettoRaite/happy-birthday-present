@@ -1,6 +1,6 @@
 
 body{
-    background: rgb(125, 15, 242);
+    background: linear-gradient(#BE36B3,#D13A28) ;
     
 }
 p{
@@ -47,13 +47,11 @@ section{
     border: solid 1px rgb(150, 150, 143);
     border-radius: 15px;
 }
+.image{
+    border:solid 2px rgb(255, 255, 255);
+}
 .support-button{
     padding: 15px;
-
-    font-size: 40px;
-    font-weight: 500px;
-
-    color: white;
 
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-family: 'Amatic SC', cursive;
@@ -63,15 +61,28 @@ section{
     font-family: 'Ubuntu', sans-serif;
     font-family: 'Ysabeau', sans-serif;
     
-    background-color: rgb(48, 2, 219);
+    background-color: #ffffff;
     border: none;
     border-radius: 15px;
     
-    box-shadow: 1px 1px 10px rgba(0,0,0,0.4);
+    box-shadow: 1px 1px 20px rgba(0,0,0,0.5);
     
 }
 .support-text{
-    
+    color: rgb(0, 0, 0);
+
+
+    font-size: 50px;
+
+    background-color: transparent;
+    text-decoration: none;
+
+    font-weight: bolder;
+}
+.support-text:visited{
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    text-decoration: none;
 }
 .quote{
     font-size: 70px;
