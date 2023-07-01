@@ -1,0 +1,51 @@
+.birthday-text{
+    text-align: center;
+    font: 500px;
+    font-size: 70px;
+    color: white;
+
+    letter-spacing: 0px;
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Belanosima', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-family: 'Ysabeau', sans-serif;
+}
+.support-link{
+
+    letter-spacing: 5px;
+    color: white;
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Belanosima', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-family: 'Ysabeau', sans-serif;
+}
+.image-table{
+    width: 50%;
+
+    margin: auto;
+    margin-top: 100px;
+    padding: 30px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    column-gap: 10px;
+
+    background: white;
+    border-radius: 15px;
+    
+    box-shadow: 1px 1px 10px rgba(0,0,0,0.3);
+    
+
+}
+.image{
+    width: 100%;
+    object-fit: cover;
+
+    box-shadow: 1px 1px 20px rgba(255, 115, 243, 0.4);
+    
+    border-radius: 15px;
+}
